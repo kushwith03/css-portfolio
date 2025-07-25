@@ -1,14 +1,22 @@
-html{
-    font-family: sans-serif;
-    text-align: justify;
+html {
+  font-family: sans-serif;
+  text-align: justify;
 }
 h1 {
   font-size: 4rem;
   font-family: "Sacramento", cursive;
 }
+h2 {
+  color: rgb(33, 112, 173);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
 .background p {
   font-size: 200%;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
 }
 .background {
@@ -31,7 +39,7 @@ h1 {
   display: grid;
   width: 70%;
   gap: 50px;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   grid-auto-rows: auto;
 }
 #intro img {
@@ -59,21 +67,23 @@ section {
   margin-top: 100px;
   padding: 10px;
 }
-#contact{
-    background-color: rgb(0, 153, 255);
-    color: white;
-    border-radius: 20px;
-    font-size: larger;
+#contact {
+  border: white;
+  background-color: rgb(0, 153, 255);
+  color: white;
+  border-radius: 20px;
+  font-size: larger;
 }
-hr{
-    width: 80%;
+hr {
+  width: 80%;
 }
-p{
-    padding: 10px;
-    width: 75%;
+p {
+  padding: 10px;
+  width: 75%;
 }
-@media (max-width:950px){
-    #java,#web-dev{
-        grid-column: span 2;
-    }
+@media (max-width: 950px) {
+  #java,
+  #web-dev {
+    grid-column: span 2;
+  }
 }
